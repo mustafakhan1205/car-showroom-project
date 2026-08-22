@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-black">
+
+    <!-- NAVBAR -->
+    <div class="flex flex-col md:flex-row justify-between items-center bg-black py-3 px-4 md:px-10 lg:px-15 gap-4">
+        <div>
+            <img class="w-20 md:w-25" src="./images/s.png" alt="">
+        </div>
+        <div>
+            <ul class="flex flex-wrap justify-center gap-4 sm:gap-8 md:gap-15 text-white py-2 md:py-5 font-semibold text-sm sm:text-base">
+                <li class="hover:text-amber-400"><a href="Home">Home</a></li>
+                <li class="hover:text-amber-400"><a href="Buy a Car">Buy a Car</a></li>
+                <li class="hover:text-amber-400"><a href="Details">Details</a></li>
+                <li class="hover:text-amber-400"><a href="Sell a Car">Sell a Car</a></li>
+                <li class="hover:text-amber-400"><a href="Rent a Car">Rent a Car</a></li>
+            </ul>
+        </div>
+        <div class="bg-amber-300 hover:bg-amber-400 cursor-pointer w-25 h-10 text-center py-2 rounded-2xl font-semibold mt-0 md:mt-3">
+            <button><a href="./Login.html">Login</a></button>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="relative min-h-screen w-full bg-[url('./images/5089137547a15e34356087064245dec54672c9fe.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center p-4 sm:p-6 md:p-12">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="z-10 w-full max-w-6xl flex flex-col items-center justify-center gap-10 py-10">
+            <div class="px-4 sm:px-10 md:px-20 lg:px-32 max-w-4xl text-center">
+                <h2 class="text-white text-3xl sm:text-4xl md:text-5xl font-bold py-4 md:py-8">The Ultimate Guide to Choosing Your Perfect Ride</h2>
+                <p class="text-white text-sm sm:text-base md:text-lg">Choosing the perfect vehicle requires careful consideration of your needs, budget, and preferences. This guide walks you through essential factors like performance, features, and reliability. Make an informed decision and drive away with confidence in your ideal car.</p>
+
+                <div class="pt-8 md:pt-10">
+                    <input type="text" placeholder="Search make, model, or type" 
+                        class="w-full px-4 py-3 text-gray-800 bg-white border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all duration-200"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BUYING POWER SECTION -->
+    <div class="flex flex-col lg:flex-row bg-black min-h-fit py-12 px-4 sm:px-8 md:px-12 items-center justify-between gap-10"> 
+        <div class="w-full lg:w-1/2 text-center lg:text-left">
+            <div class="bg-amber-300 hover:bg-amber-400 cursor-pointer w-25 h-10 text-center mx-auto lg:mx-0 py-2 rounded-2xl font-semibold mb-4">
+                <button>New</button>
+            </div>
+            <h1 class="text-white py-3 text-2xl sm:text-3xl font-bold">Know your buying power</h1>
+            <p class="text-[#655F5F] max-w-lg mx-auto lg:mx-0">How much car can you afford? Find out, then see vehicles that match your budget</p>
+            <img class="w-full max-w-md lg:max-w-xl mx-auto lg:mx-0 mt-8 object-contain" src="./images/car.png" alt="">
+        </div>
+        <div class="text-white w-full lg:w-1/2 flex justify-center items-center">
+            <div class="bg-[#2c2b2b] py-10 px-8 sm:px-15 rounded-2xl text-center w-full max-w-sm">
+                <h1 class="text-4xl sm:text-6xl font-bold">$27624</h1>
+                <p class="text-[#655F5F] text-center py-2">Based on 8.06% APR</p>
+            </div>
+        </div>  
+    </div>
+
+    <!-- OUR SERVICES -->
+    <div class="bg-[#2c2b2b] py-16 px-4">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl text-center text-white pb-10">Our Services</h1>
+
+        <div class="flex flex-wrap justify-center gap-6 my-5">
+            <!-- Card 1 -->
+            <div class="w-full sm:w-70 bg-black rounded-2xl border-3 border-amber-300 p-6 flex flex-col items-center">
+                <img class="w-24 h-24 object-contain my-4" src="./images/c1.png" alt="">
+                <h2 class="text-white pb-4 text-center text-2xl font-bold">Buy a New Car</h2>
+                <p class="text-white text-center text-sm leading-relaxed">Choosing the perfect vehicle requires careful consideration of your needs, budget, and preferences. This guide walks you</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="w-full sm:w-70 bg-black rounded-2xl border-3 border-amber-300 p-6 flex flex-col items-center">
+                <img class="w-24 h-24 object-contain my-4" src="./images/c2.png" alt="">
+                <h2 class="text-white pb-4 text-center text-2xl font-bold">Sell a New Car</h2>
+                <p class="text-white text-center text-sm leading-relaxed">Choosing the perfect vehicle requires careful consideration of your needs, budget, and preferences. This guide walks you</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="w-full sm:w-70 bg-black rounded-2xl border-3 border-amber-300 p-6 flex flex-col items-center">
+                <img class="w-24 h-24 object-contain my-4" src="./images/c3.png" alt="">
+                <h2 class="text-white pb-4 text-center text-2xl font-bold">Rent Any Time</h2>
+                <p class="text-white text-center text-sm leading-relaxed">Choosing the perfect vehicle requires careful consideration of your needs, budget, and preferences. This guide walks you</p>
+            </div>
+        </div>    
+    </div>
+
+    <!-- BRANDS SECTION -->
+    <div class="bg-black py-16 px-4">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl text-center text-white pb-12">Shop your favourite brand</h1>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <!-- Brand Item -->
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Toyota.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Toyota</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/BMW.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">BMW</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Chevrolet.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Chevrolet</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Honda.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Honda</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Ford.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Ford</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Audi.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Audi</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Acura.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Acura</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Hyundai.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Hyundai</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Dodge.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Dodge</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Mercedes-Benz.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Mercedes-Benz</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Kia.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Kia</h2>
+            </div>
+            <div class="flex items-center justify-center gap-4 h-20 bg-[#2c2b2b] rounded-2xl border-1 border-amber-300 p-4">
+                <img class="w-10 h-10 object-contain" src="./images/Lexus.png.png" alt="">
+                <h2 class="text-white text-xl sm:text-2xl">Lexus</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-black h-150">
+        <h1>Top-rated carsby type</h1>
+    </div>
+
+
+
+
+
+</body>
+</html>
